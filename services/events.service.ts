@@ -1,6 +1,6 @@
+import events from '../json/events.json';
 import { DateFilter } from '../types/date-filter.type';
 import { Event } from '../types/event.type';
-import events from './events.json';
 
 export class EventsService {
   private events: Event[];
