@@ -1,6 +1,6 @@
 import events from '../json/events.json';
-import DateFilter from '../types/date-filter.type';
-import Event from '../types/event.type';
+import DateFilter from '../types/date-filter';
+import Event from '../types/event';
 
 class EventsService {
   private events: Event[];
