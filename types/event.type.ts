@@ -3,7 +3,7 @@ export type Event = {
   title: string;
   description: string;
   location: string;
-  date: Date;
+  date: string;
   image: string;
   isFeatured: boolean;
 };
