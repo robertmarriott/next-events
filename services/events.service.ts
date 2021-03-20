@@ -1,8 +1,8 @@
 import events from '../json/events.json';
-import { DateFilter } from '../types/date-filter.type';
-import { Event } from '../types/event.type';
+import DateFilter from '../types/date-filter.type';
+import Event from '../types/event.type';
 
-export class EventsService {
+class EventsService {
   private events: Event[];
 
   constructor() {
@@ -42,3 +42,5 @@ export class EventsService {
     return filteredEvents;
   }
 }
+
+export default EventsService;

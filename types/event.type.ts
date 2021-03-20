@@ -1,4 +1,4 @@
-export type Event = {
+type Event = {
   id: number;
   title: string;
   description: string;
@@ -7,3 +7,5 @@ export type Event = {
   image: string;
   isFeatured: boolean;
 };
+
+export default Event;
