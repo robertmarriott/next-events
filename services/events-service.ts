@@ -1,4 +1,4 @@
-import events from '../json/events.json';
+import events from '../data/events.json';
 import DateFilter from '../types/date-filter';
 import Event from '../types/event';
 
