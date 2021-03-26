@@ -1,15 +1,14 @@
 import { useEffect, useState } from 'react';
 
-import EventsService from '../../services/EventService';
+import { getEvents } from '../../data/data';
 import Event from '../../types/Event';
 
 const EventsPage = () => {
   const [events, setEvents] = useState<Event[]>([]);
 
   useEffect(() => {
-    const eventsService = new EventsService();
-    setEvents(eventsService.getEvents());
-  }, [EventsService]);
+    setEvents(getEvents());
+  }, [getEvents]);
 
   return <div></div>;
 };
